@@ -1,7 +1,12 @@
 "use client";
 
+import dynamic from "next/dynamic";
 import Sidebar from "../../components/Sidebar";
-import MapDashboard from "../../components/MapDashboard";
+// import MapDashboard from "../../components/MapDashboard";
+
+const MapDashboard = dynamic(() => import("../../components/MapDashboard"), {
+  ssr: false, 
+});
 
 export default function HomePage() {
   return (
