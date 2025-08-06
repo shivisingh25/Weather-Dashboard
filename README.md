@@ -24,7 +24,7 @@ Powered by **Open-Meteo** (free, no API key required) for live updates.
 | UI & Routing          | Next.js + React (App Router)     |
 | Mapping               | Leaflet, react-leaflet, react-leaflet-draw |
 | State Management      | Zustand                          |
-| Weather API           | Open-Meteo — free & no API key  :contentReference[oaicite:1]{index=1} |
+| Weather API           | Open-Meteo — free & no API key   |
 | Styling               | Tailwind CSS                     |
 | HTTP Client           | Axios                            |
 
